@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;  
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.menunav {
+    padding-top: 15px;
+    padding-left: 15px;
+    float: left;
+    top: 0;
+    left: 0;
+    position: sticky;
+    position: -webkit-sticky;
+}
+.sticky{
+    top: 0;
+    right: 0;
+    position: sticky;
+    position: -webkit-sticky;
+}
+.div1 {
+    background: url(images/pexels-ron-lach-8102677.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    vertical-align: text-bottom;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font: family font 1px;
+    font-size: 65px;
+    color:rgb(255, 255, 255);
+    text-shadow: -2px -2px 4px #000000;
+}
+.div2 {
+    background: url(images/giphy\ \(1\).gif);
+    background-repeat: repeat;
+    background-size: 109%;
+    padding-top: 50px;
+    margin: 0;
+    width: 100%;
+    height: 800px;
+    font-family: cursive;
+    background-color: rgb(42, 40, 43);
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-style: italic;
+    font-size: 19px;
+}
+.div3 {
+    background: url(images/giphy.gif);
+    background-repeat: repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(46, 44, 48);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+.div4 {
+    width: 100%;
+    height: 800px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(42, 40, 43);
+    color: white;
+}
+ul{
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 20px 20px;
+    width: 41%;
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: flex;
+    text-transform: uppercase;
+    text-shadow: -3px -3px 5px #000000;
+}
+ul li a{
+    line-height: 75px;
+}
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+li a:hover {
+    color: rgb(255, 8, 8);
+    transition: 0.3s;
+    transform: scale(1.4);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.csection{
+    background: url(images/J4o.gif);
+    height: 800px;
+    background-attachment: fixed;
+}
+.csection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .cinfo{
+    color: #fdfdfd;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgb(255, 0, 0);
+ }
+ .cinfo i{
+    margin-right: 20px;
+    font-size: 25px;
+ }
+ .cform{
+    max-width: 1000px;
+    margin-right: 50px;
+ }
+ .cinfo{
+    flex: 1;
+ }
+ .cform{
+    flex: 1;
+ }
+ .cform h2{
+    color: #f5eaea;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+ }
+ .cform .text-box{
+    background: #000;
+    color: #ffffff;
+    border: none;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 5px rgba(73, 42, 247, 0.918);
+    margin-bottom: 20px;
+ }
+ .cform .textbox:first-child{
+    margin-right: 15px;
+ }
+ .cform textarea{
+    background: #000;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 5px rgba(73, 42, 247, 0.918);
+    margin-bottom: 20px;
+    opacity: 0.9;
+ }
+ .submit{
+    float: right;
+    background: #ffffff;
+    color: #2600ff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .cform .submit:hover{
+    background: #0582E3;
+ }

@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;  
+}
+body {
+    background: url(images/submitsuccess.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.back{
+    padding-top: 710px;
+    padding-left: 630px;
+}
+.backk{
+    background: #999797;
+    color: #2600ff;
+    border: none;
+    width: 180px;
+    height: 80px;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    cursor: pointer;
+ }
+ .backk:hover{
+    background: #0091ff;
+ }
